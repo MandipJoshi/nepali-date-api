@@ -62,7 +62,7 @@ def get_nepali_date():
     return f"{date[0]} {month_map[date[1]]} {date[2]}"
 
 def get_weekday():
-    weekday=str(datetime.datetime.now(pytz.timezone("Asia/Kathmandu")).weekday())
+    weekday=str(datetime.datetime.now().weekday())
     return weekday_map[weekday]
 
 @app.get("/date")
