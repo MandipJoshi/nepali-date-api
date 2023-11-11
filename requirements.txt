@@ -1,0 +1,4 @@
+fastapi
+nepali_datetime
+pytz
+uvicorn
